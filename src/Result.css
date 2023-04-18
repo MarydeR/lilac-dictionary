@@ -17,7 +17,7 @@ h3 {
   color: rgb(86, 84, 84);
 }
 
-.Result .notfound h2 {
+.Result .notfound {
   text-align: center;
   font-size: 14px;
 }

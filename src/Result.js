@@ -19,10 +19,6 @@ export default function Result(props) {
       </div>
     );
   } else {
-    return (
-      <div className="Result notfound">
-        <h2>.</h2>
-      </div>
-    );
+    return null;
   }
 }
