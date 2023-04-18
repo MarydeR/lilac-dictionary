@@ -11,10 +11,19 @@ export default function Dictionary() {
   function handleresponse(response) {
     setResultinfo(response.data);
   }
+
+  function showError(response) {
+    setResultinfo(null);
+    return (
+      <div>
+        <h2>Not Found</h2>
+      </div>
+    );
+  }
   function search(event) {
     event.preventDefault();
     let apiurl = `https://api.shecodes.io/dictionary/v1/define?word=${newword}&key=2ec340bdbdo84acaf6ct2a055b44668d`;
-    axios.get(apiurl).then(handleresponse);
+    axios.get(apiurl).then(handleresponse).catch(showError);
   }
 
   function handleNewWord(event) {
