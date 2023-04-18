@@ -1,3 +1,14 @@
 .Meaning {
-  max-width: 560px;
+  background-color: rgb(246, 238, 246);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px auto;
+}
+.Meaning .maindef {
+  font-size: 16px;
+}
+
+.Meaning .example {
+  font-size: 14px;
+  line-height: 1.5;
 }
