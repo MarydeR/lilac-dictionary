@@ -15,7 +15,11 @@ export default function App() {
       <footer>
         {" "}
         Coded by MDR -{" "}
-        <a href="https://github.com/MarydeR/lilac-dictionary" target="_blank">
+        <a
+          href="https://github.com/MarydeR/lilac-dictionary"
+          target="_blank"
+          rel="noreferrer"
+        >
           OpenSource
         </a>{" "}
       </footer>
