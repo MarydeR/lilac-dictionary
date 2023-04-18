@@ -19,6 +19,10 @@ export default function Result(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <div className="Result">
+        <h2 className="nf text-center">...</h2>
+      </div>
+    );
   }
 }
