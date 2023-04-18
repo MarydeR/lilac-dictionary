@@ -21,7 +21,7 @@ export default function Result(props) {
   } else {
     return (
       <div className="Result notfound">
-        <h2></h2>
+        <h2>.</h2>
       </div>
     );
   }
