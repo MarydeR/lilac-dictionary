@@ -9,9 +9,15 @@ h3 {
   display: inline-block;
   padding: 10px;
   color: rgb(136, 51, 164);
+  text-align: left;
 }
 
 .Result h3 {
   font-size: 18px;
   color: rgb(86, 84, 84);
+}
+
+.Result .notfound h2 {
+  text-align: center;
+  font-size: 14px;
 }
