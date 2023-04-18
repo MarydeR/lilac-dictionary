@@ -33,8 +33,16 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="search" onChange={handleNewWord} />
-        <button>Search</button>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            autoComplete="off"
+            onChange={handleNewWord}
+          />
+          <button class="btn btn-outline-secondary">Button</button>
+        </div>
       </form>
 
       <div className="resultssection">

@@ -10,6 +10,7 @@ export default function App() {
       </header>
 
       <main>
+        <h1>Dictionary</h1>
         <Dictionary />
       </main>
       <footer>

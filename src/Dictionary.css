@@ -1,3 +1,16 @@
 .Dictionary form {
-  margin: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Dictionary input {
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.Dictionary button {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(136, 51, 164);
+  color: rgb(244, 229, 245);
+  border-radius: 5px;
+  font-size: 18px;
 }
