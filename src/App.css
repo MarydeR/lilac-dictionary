@@ -9,3 +9,7 @@
 .App .App-logo {
   max-width: 300px;
 }
+.App footer {
+  padding: 20px;
+  font-size: 14px;
+}
