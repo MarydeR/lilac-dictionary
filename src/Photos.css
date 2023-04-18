@@ -1,5 +1,4 @@
 .Photo img {
-  padding: 10px;
   max-width: 100%;
   border-radius: 10px;
   margin: 0;
@@ -10,5 +9,5 @@
 }
 
 .Photo .grid {
-  padding: 0;
+  padding: 10px;
 }
